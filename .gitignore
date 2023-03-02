@@ -1,0 +1,4 @@
+# Archivos que no quiero tener en GitHub
+__pycache__
+*.RData
+*.Rhistory

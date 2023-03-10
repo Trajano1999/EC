@@ -111,7 +111,7 @@ rowMeans(A)
 A<-matrix(c(3,4,-1,5,-2,1,2,-2,1),3,3,byrow=T);A
 b<-c(8,4,1)
 solve(A) # inversa A
-solve(A,b) # resolver el sistema
+solve(A,b) # resolver el sistema Ax=b
 
 #---------------------------------
 # 7. Funcion outer
@@ -121,7 +121,7 @@ f<-function(x,y) x+y
 x<-c(1,0)
 y<-c(2,5)
 
-outer(x,y,f) # aplica a los eelementos x,y la funcion f
+outer(x,y,f) # aplica a los elementos x,y la funcion f
 
 #---------------------------------
 # 8. Ordenar matrices
